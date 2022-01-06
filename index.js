@@ -8,7 +8,7 @@ const routes = express.Router();
 app.use(express.json());
 
 routes.get("/users", (req, res) => {
-  return res.json(users);
+  return res.json({ users: users });
 });
 
 routes.post("/user", (req, res) => {
