@@ -6,6 +6,7 @@
   "author": "Luiz Rioja <lulyrioja@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "commit": "git-cz",
     "dev": "nodemon index.js"
   },
   "husky": {
@@ -16,10 +17,17 @@
   "devDependencies": {
     "@commitlint/cli": "^16.0.1",
     "@commitlint/config-conventional": "^16.0.0",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "3.3.0",
     "husky": "^7.0.4",
     "nodemon": "^2.0.15"
   },
   "dependencies": {
     "express": "^4.17.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
