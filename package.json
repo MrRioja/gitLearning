@@ -8,7 +8,15 @@
   "scripts": {
     "dev": "nodemon index.js"
   },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
   "devDependencies": {
+    "@commitlint/cli": "^16.0.1",
+    "@commitlint/config-conventional": "^16.0.0",
+    "husky": "^7.0.4",
     "nodemon": "^2.0.15"
   },
   "dependencies": {
