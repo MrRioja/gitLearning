@@ -25,12 +25,12 @@ Esse repo foi criado com o intuito de registrar minhas experiencias e aprendizad
 
 Ferramentas testadas nesse repositório:
 
-- [x] Husky.
-
-  - Usado para lint de mensagens de commit, executar testes, lint code, etc... quando há um commit ou push.
-
 - [x] Commitizen.
+
   - Seu principal objetivo é definir uma forma padrão de realizar commits.
+
+- [x] Husky.
+  - Usado para lint de mensagens de commit, executar testes, lint code, etc... quando há um commit ou push.
 
 | Utilizando a CLI do Commitizen para realizar um commit seguindo padrões |
 | :---------------------------------------------------------------------: |
